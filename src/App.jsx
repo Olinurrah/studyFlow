@@ -10,6 +10,18 @@ function App() {
  <h1>আসসালামু আলাইকুম </h1>
  <h2>welcome to our study-flow </h2>
 
+ <div className='border-1 m-5 p-5'>
+  <h1>Study folow feature</h1>
+  <ul className='text-fuchsia-500'>
+    <li>nav</li>
+    <li>mark</li>
+    <li>help</li>
+    <li>road map</li>
+    <li>Focus</li>
+  </ul>
+
+ </div>
+
     </>
   )
 }
