@@ -1,5 +1,6 @@
 
 import './App.css'
+import HeroSection from './compunent/HeroSection'
 import Navbar from './compunent/Navbar'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
  <h2>welcome to our study-flow </h2>
  {/* nav */}
 <Navbar></Navbar>
+<HeroSection></HeroSection>
 
 
  <div className='border-1 m-5 p-5'>
