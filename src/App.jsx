@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './compunent/Footer'
 import HeroSection from './compunent/HeroSection'
 import Navbar from './compunent/Navbar'
 
@@ -28,6 +29,10 @@ function App() {
   </ul>
 
  </div>
+{/* footer */}
+<Footer></Footer>
+
+
 
     </>
   )
