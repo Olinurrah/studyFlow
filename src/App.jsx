@@ -1,5 +1,8 @@
 
 import './App.css'
+import Footer from './compunent/Footer'
+import Footer2 from './compunent/Footer2'
+import HeroSection from './compunent/HeroSection'
 import Navbar from './compunent/Navbar'
 
 function App() {
@@ -13,9 +16,10 @@ function App() {
  <h2>welcome to our study-flow </h2>
  {/* nav */}
 <Navbar></Navbar>
+<HeroSection></HeroSection>
 
 
- <div className='border-1 m-5 p-5'>
+ <div className='border m-5 p-5'>
   <h1>Study folow feature</h1>
   <ul className='text-fuchsia-500'>
     <li>nav</li>
@@ -26,6 +30,11 @@ function App() {
   </ul>
 
  </div>
+{/* footer */}
+<Footer></Footer>
+<Footer2></Footer2>
+
+
 
     </>
   )
