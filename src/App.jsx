@@ -1,9 +1,13 @@
 
 import './App.css'
+import Card from './compunent/Card'
+// import AdminPanel from './compunent/AdminPanel'
 import Footer from './compunent/Footer'
 import Footer2 from './compunent/Footer2'
 import HeroSection from './compunent/HeroSection'
+// import Login from './compunent/Login'
 import Navbar from './compunent/Navbar'
+import ConditionalRendaring from './react-concepts/ConditionalRendaring'
 
 function App() {
   
@@ -17,22 +21,14 @@ function App() {
  {/* nav */}
 <Navbar></Navbar>
 <HeroSection></HeroSection>
-
-
- <div className='border m-5 p-5'>
-  <h1>Study folow feature</h1>
-  <ul className='text-fuchsia-500'>
-    <li>nav</li>
-    <li>mark</li>
-    <li>help</li>
-    <li>road map</li>
-    <li>Focus</li>
-  </ul>
-
- </div>
+<Card />
+{/* <Login /> */}
+{/* <AdminPanel /> */}
 {/* footer */}
+<ConditionalRendaring />
 <Footer></Footer>
 <Footer2></Footer2>
+
 
 
 
