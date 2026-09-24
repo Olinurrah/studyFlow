@@ -1,0 +1,44 @@
+const products = [
+  {
+    id: 1,
+    name: "Classic T-Shirt",
+    price: 650,
+    category: "Men",
+    inStock: true,
+    image: "./productImg/t-shirt.jpg",
+  },
+  {
+    id: 2,
+    name: "Premium Hoodie",
+    price: 1200,
+    category: "Men",
+    inStock: true,
+    image: "./productImg/hoodi.jpg",
+  },
+  {
+    id: 3,
+    name: "Running Shoes",
+    price: 1800,
+    category: "Shoes",
+    inStock: false,
+    image: "./productImg/shoes.jpg",
+  },
+  {
+    id: 4,
+    name: "Casual Shirt",
+    price: 850,
+    category: "Men",
+    inStock: true,
+    image: "./productImg/shirt.jpg",
+  },
+  {
+    id: 4,
+    name: "Shoes",
+    price: 1850,
+    category: "Men",
+    inStock: true,
+    image: "./productImg/shoes2.jpg",
+  }
+];
+
+export default products;

@@ -2,16 +2,13 @@
 const Navbar = () => {
     return (
         <div>
-            <nav className="flex bg-indigo-900">
-                <h1 className=" text-2xl px-5">StudyFlow</h1>
-                <ul className="flex m-auto">
-                    <li className="mx-4">Home</li>
-                    <li className="mx-4">Feature</li>
-                    <li className="mx-4">Survice</li>
-                    <li className="mx-4">About</li>
-                </ul>
-                <button className= "btn border border-indigo-300 m-5 p-3 rounded-2xl">Sing up</button>
-            </nav>
+            <div className="flex justify-between bg-orange-500 w-full h-">
+                <h1 className="p-10 text-5xl font-extrabold">MiniShop</h1>
+                <div>
+                    <h2 className="p-10  text-3xl font-bold">Cart(0)</h2>
+                </div>
+            </div>
+            
         </div>
     );
 };
