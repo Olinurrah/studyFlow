@@ -1,9 +1,8 @@
 import products from "../data/products";
 import ProductCard from "./ProductCard";
 
-const pro = "hello"
 
-const ProductsList = () => {
+const ProductsList = ({products, onAddToCart}) => {
     return (
         <div>
             <div className="m-5 grid grid-cols-3 gap-3">
@@ -12,23 +11,13 @@ const ProductsList = () => {
                         <ProductCard
                         key={product.id}
                         product={product}
+                        onAddToCart= {onAddToCart}
                         />
                                              
                     ))
                 }
                  
-                {/* <ProductCard  pro={pro}/>
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard /> */}
+              
             </div>
             
         </div>
