@@ -46,7 +46,7 @@ const MinishopMain = () => {
                 products={filteredProducts}
                 onAddToCart={handleAddToCart} />
                 <Footer />
-                <Imageveiw />
+                {/* <Imageveiw /> */}
             </div>
             
         </div>
