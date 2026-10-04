@@ -1,20 +1,13 @@
-import EcommersPL from "./e-commers/EcommersPL";
-import ArrayPractice from "./workshop/ArrayPractice";
-import Form from "./workshop/Form";
-import ImgRender from "./workshop/ImgRender";
-import StatePractice from "./workshop/StatePractice";
-
+import MinishopMain from "./miniShop/MinishopMain";
+import CoreConcepts from "./reactCoreConcept/CoreConcepts";
 
 const App = () => {
   return (
     <div>
+      <CoreConcepts />
       
-    {/* <StatePractice /> */}
-
-    {/* <ImgRender /> */}
-    {/* <ArrayPractice /> */}
-    {/* <Form /> */}
-    <EcommersPL />
+    {/* <MinishopMain></MinishopMain> */}
+    {/* <EcommersPL /> */}
     </div>
   );
 };
