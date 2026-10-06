@@ -1,10 +1,13 @@
-import MinishopMain from "./miniShop/MinishopMain";
-import CoreConcepts from "./reactCoreConcept/CoreConcepts";
+// import MinishopMain from "./miniShop/MinishopMain";
+// import CoreConcepts from "./reactCoreConcept/CoreConcepts";
+
+import Worldview from "./compunent/worldview/Worldview";
 
 const App = () => {
   return (
     <div>
-      <CoreConcepts />
+      <Worldview></Worldview>
+      {/* <CoreConcepts /> */}
       
     {/* <MinishopMain></MinishopMain> */}
     {/* <EcommersPL /> */}
