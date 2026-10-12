@@ -1,9 +1,11 @@
 import { useState } from "react";
+import CountryDetails from "./CountryDetails";
 
-const Country = ({country}) => {
+const Country = ({country, handlevisitedCountries, showDetailsCountry,  handleDetailsCountry}) => {
     const [visited, setVisited] =useState(false)
     const handleVisited = ()=> {
-        setVisited(!visited)
+        setVisited(!visited);
+        handlevisitedCountries(country);
     }
     return (
         <div>
@@ -16,13 +18,15 @@ const Country = ({country}) => {
             <p>{country.region.region}</p>
             <p>Area: {country.area.area} {country.area.area < 30000 ? "small country" : "big country"}</p>
             <div >
-                <button className="btn w-1/2 my-3 bg-blue-900" onClick={handleVisited}>{visited ? "Visited" : "Not visited"}</button>
+                <button className={` btn w-1/2 my-3 bg-blue-900 ${visited ? "text-blue-400" : "text-red-500"}`} onClick={handleVisited}>{visited ? "Visited" : "Not visited"}</button>
       
-                <button className="btn w-1/2 my-3 bg-blue-900">Details</button>
+                <button className="btn w-1/2 my-3 bg-blue-900" onClick={handleDetailsCountry} >Details</button>
       
 
             </div>
               </div>
+
+              <CountryDetails showDetailsCountry={showDetailsCountry}></CountryDetails>
         </div>
     );
 };
